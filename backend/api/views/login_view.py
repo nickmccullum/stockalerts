@@ -5,9 +5,9 @@ from rest_framework.permissions import AllowAny
 from rest_framework import status
 from rest_framework_simplejwt.tokens import RefreshToken
 from rest_framework_simplejwt.exceptions import TokenError, InvalidToken
-from core.auth.serializers import LoginSerializer, RegistrationSerializer
+from api.serializers import LoginSerializer, RegisterSerializer
 
-class LoginViewSet(ModelViewSet, TokenObtainPairView):
+class LoginView(ModelViewSet, TokenObtainPairView):
     serializer_class = LoginSerializer
     permission_classes = (AllowAny,)
     http_method_names = ['post']

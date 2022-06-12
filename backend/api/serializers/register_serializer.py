@@ -4,8 +4,8 @@ from rest_framework_simplejwt.settings import api_settings
 from django.contrib.auth.models import update_last_login
 from django.core.exceptions import ObjectDoesNotExist
 
-from core.user.serializers import UserSerializer
-from core.user.models import User
+from api.serializers import UserSerializer
+from core.models import User
 
 class RegisterSerializer(UserSerializer):
     password = serializers.CharField(max_length=128, min_length=8, write_only=True, required=True)

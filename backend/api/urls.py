@@ -1,17 +1,16 @@
 from rest_framework.routers import SimpleRouter
-from core.user.viewsets import UserViewSet
-from core.auth.viewsets import LoginViewSet, RegistrationViewSet, RefreshViewSet
+from api.views import UserView, LoginView, RegisterView
 
 
 routes = SimpleRouter()
 
 # AUTHENTICATION
-routes.register(r'auth/login', LoginViewSet, basename='auth-login')
-routes.register(r'auth/register', RegistrationViewSet, basename='auth-register')
-routes.register(r'auth/refresh', RefreshViewSet, basename='auth-refresh')
+routes.register(r'auth/login', LoginView, basename='auth-login')
+routes.register(r'auth/register', RegisterView, basename='auth-register')
+# routes.register(r'auth/refresh', RefreshView, basename='auth-refresh')
 
 # USER
-routes.register(r'user', UserViewSet, basename='user')
+routes.register(r'user', UserView, basename='user')
 
 
 urlpatterns = [
