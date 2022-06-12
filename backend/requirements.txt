@@ -9,13 +9,19 @@ asgiref==3.5.2
     #   -r requirements.in
     #   django
 django==4.0.5
+    # via
+    #   -r requirements.in
+    #   djangorestframework
+djangorestframework==3.13.1
     # via -r requirements.in
 gunicorn==20.1.0
     # via -r requirements.in
 psycopg2==2.9.3
     # via -r requirements.in
 pytz==2022.1
-    # via -r requirements.in
+    # via
+    #   -r requirements.in
+    #   djangorestframework
 sqlparse==0.4.2
     # via
     #   -r requirements.in
