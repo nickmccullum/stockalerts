@@ -1,6 +1,8 @@
 # Created by https://www.toptal.com/developers/gitignore/api/python,django
 # Edit at https://www.toptal.com/developers/gitignore?templates=python,django
 
+stockalerts/local_settings.py
+
 ### Django ###
 *.log
 *.pot
