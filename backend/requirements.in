@@ -6,3 +6,15 @@ pytz
 sqlparse
 djangorestframework
 whitenoise
+drf-yasg
+djangorestframework-simplejwt
+mypy
+types-redis
+types-python-dateutil
+types-requests
+types-pytz
+types-simplejson
+django-stubs
+pylint
+djangorestframework-stubs
+numpy

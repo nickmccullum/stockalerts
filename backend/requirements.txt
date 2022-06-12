@@ -8,26 +8,147 @@ asgiref==3.5.2
     # via
     #   -r requirements.in
     #   django
+astroid==2.11.5
+    # via pylint
+certifi==2022.5.18.1
+    # via requests
+charset-normalizer==2.0.12
+    # via requests
+coreapi==2.3.3
+    # via
+    #   djangorestframework-stubs
+    #   drf-yasg
+coreschema==0.0.4
+    # via
+    #   coreapi
+    #   drf-yasg
+dill==0.3.5.1
+    # via pylint
 django==4.0.5
     # via
     #   -r requirements.in
+    #   django-stubs
+    #   django-stubs-ext
     #   djangorestframework
+    #   djangorestframework-simplejwt
+    #   drf-yasg
+django-stubs==1.11.0
+    # via
+    #   -r requirements.in
+    #   djangorestframework-stubs
+django-stubs-ext==0.4.0
+    # via django-stubs
 djangorestframework==3.13.1
+    # via
+    #   -r requirements.in
+    #   djangorestframework-simplejwt
+    #   drf-yasg
+djangorestframework-simplejwt==5.2.0
+    # via -r requirements.in
+djangorestframework-stubs==1.6.0
+    # via -r requirements.in
+drf-yasg==1.20.0
     # via -r requirements.in
 gunicorn==20.1.0
     # via -r requirements.in
+idna==3.3
+    # via requests
+inflection==0.5.1
+    # via drf-yasg
+isort==5.10.1
+    # via pylint
+itypes==1.2.0
+    # via coreapi
+jinja2==3.1.2
+    # via coreschema
+lazy-object-proxy==1.7.1
+    # via astroid
+markupsafe==2.1.1
+    # via jinja2
+mccabe==0.7.0
+    # via pylint
+mypy==0.950
+    # via
+    #   -r requirements.in
+    #   django-stubs
+    #   djangorestframework-stubs
+mypy-extensions==0.4.3
+    # via mypy
+numpy==1.22.4
+    # via -r requirements.in
+packaging==21.3
+    # via drf-yasg
+platformdirs==2.5.2
+    # via pylint
 psycopg2==2.9.3
     # via -r requirements.in
+pyjwt==2.4.0
+    # via djangorestframework-simplejwt
+pylint==2.14.1
+    # via -r requirements.in
+pyparsing==3.0.9
+    # via packaging
 pytz==2022.1
     # via
     #   -r requirements.in
     #   djangorestframework
+requests==2.28.0
+    # via
+    #   coreapi
+    #   djangorestframework-stubs
+ruamel-yaml==0.17.21
+    # via drf-yasg
+ruamel-yaml-clib==0.2.6
+    # via ruamel-yaml
 sqlparse==0.4.2
     # via
     #   -r requirements.in
     #   django
+tomli==2.0.1
+    # via
+    #   django-stubs
+    #   mypy
+    #   pylint
+tomlkit==0.11.0
+    # via pylint
+types-markdown==3.3.27
+    # via djangorestframework-stubs
+types-python-dateutil==2.8.17
+    # via -r requirements.in
+types-pytz==2021.3.8
+    # via
+    #   -r requirements.in
+    #   django-stubs
+types-pyyaml==6.0.8
+    # via
+    #   django-stubs
+    #   djangorestframework-stubs
+types-redis==4.2.6
+    # via -r requirements.in
+types-requests==2.27.30
+    # via
+    #   -r requirements.in
+    #   djangorestframework-stubs
+types-simplejson==3.17.6
+    # via -r requirements.in
+types-urllib3==1.26.15
+    # via types-requests
+typing-extensions==4.2.0
+    # via
+    #   django-stubs
+    #   django-stubs-ext
+    #   djangorestframework-stubs
+    #   mypy
+uritemplate==4.1.1
+    # via
+    #   coreapi
+    #   drf-yasg
+urllib3==1.26.9
+    # via requests
 whitenoise==6.2.0
     # via -r requirements.in
+wrapt==1.14.1
+    # via astroid
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
