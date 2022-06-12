@@ -26,6 +26,8 @@ sqlparse==0.4.2
     # via
     #   -r requirements.in
     #   django
+whitenoise==6.2.0
+    # via -r requirements.in
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools

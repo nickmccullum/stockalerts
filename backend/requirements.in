@@ -5,3 +5,4 @@ psycopg2
 pytz
 sqlparse
 djangorestframework
+whitenoise
